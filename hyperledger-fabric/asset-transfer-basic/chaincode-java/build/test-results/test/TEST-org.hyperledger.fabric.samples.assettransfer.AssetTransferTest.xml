@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.hyperledger.fabric.samples.assettransfer.AssetTransferTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-19T07:10:13" hostname="ODC-M17" time="1.804">
+<testsuite name="org.hyperledger.fabric.samples.assettransfer.AssetTransferTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-06-05T19:17:01" hostname="ODC-M17" time="1.102">
   <properties/>
-  <testcase name="invokeGetAllAssetsTransaction()" classname="org.hyperledger.fabric.samples.assettransfer.AssetTransferTest" time="1.765"/>
-  <testcase name="invokeInitLedgerTransaction()" classname="org.hyperledger.fabric.samples.assettransfer.AssetTransferTest" time="0.022"/>
-  <testcase name="invokeUnknownTransaction()" classname="org.hyperledger.fabric.samples.assettransfer.AssetTransferTest" time="0.015"/>
+  <testcase name="invokeGetAllAssetsTransaction()" classname="org.hyperledger.fabric.samples.assettransfer.AssetTransferTest" time="1.069"/>
+  <testcase name="invokeInitLedgerTransaction()" classname="org.hyperledger.fabric.samples.assettransfer.AssetTransferTest" time="0.02"/>
+  <testcase name="invokeUnknownTransaction()" classname="org.hyperledger.fabric.samples.assettransfer.AssetTransferTest" time="0.011"/>
   <system-out><![CDATA[Asset@7fb0835b [assetID=asset1, color=blue, size=5, owner=Rashmi Nair, appraisedValue=300]
 Asset@a88477cf [assetID=asset2, color=red, size=5, owner=Anjali Menon, appraisedValue=400]
 Asset@8a0951bb [assetID=asset3, color=green, size=10, owner=Alex Abraham, appraisedValue=500]
