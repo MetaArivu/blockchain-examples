@@ -20,10 +20,19 @@ install-fabric.sh docker sample
 
 Hyperledger Fabric Network with 2 Orgs (1 Peer each) 1 Orderer and 3 CA's and default channels
 
+Go to the Test Network Folder
 ```shell
 cd test-network
+```
+
+```shell
 network.sh up createChannel -c mychannel -ca
 ```
+OR
+```shell
+bc-0-create-network.sh
+```
+
 ## 2. Deploy the Smart Contract
 
 ### 2.1 Deploy Java Chain Code
@@ -31,6 +40,12 @@ network.sh up createChannel -c mychannel -ca
 ```shell
 network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-java -ccl java
 ```
+OR
+```shell
+bc-0-deploy-chaincode.sh
+```
+
+
 ### 2.2 Set Fabric Bin Path
 
 ```shell
@@ -55,28 +70,51 @@ export CORE_PEER_ADDRESS=localhost:7051/
 ```shell
 peer chaincode invoke -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile "${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem" -C mychannel -n basic --peerAddresses localhost:7051 --tlsRootCertFiles "${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt" --peerAddresses localhost:9051 --tlsRootCertFiles "${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt" -c '{"function":"InitLedger","Args":[]}' 
 ```
+OR
+```shell
+bc-1-initLedger.sh
+```
+
 
 ### 3.2 Query the Ledger 
 
 ```shell
 peer chaincode query -C mychannel -n basic -c '{"Args":["GetAllAssets"]}’
 ```
+OR
+```shell
+bc-2-getAllRecords.sh
+```
+
 
 ### 3.3 Query the Ledger for a Specific Asset 
 
 ```shell
 peer chaincode query -C mychannel -n basic -c '{"Args":["ReadAsset","asset6"]}'
 ```
+OR
+```shell
+bc-3-readData.sh 6
+```
+
 
 ### 3.4 Transfer the Asset from Person A to Person B
 
 ```shell
 peer chaincode invoke -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile "${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem" -C mychannel -n basic --peerAddresses localhost:7051 --tlsRootCertFiles "${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt" --peerAddresses localhost:9051 --tlsRootCertFiles "${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt" -c '{"function":"TransferAsset","Args":["asset6","Christopher"]}' 
 ```
+OR
+```shell
+bc-4-changeOwnership.sh
+```
 
 ### 3.4 Query the Ledger to check the new Asset Owner 
 
 ```shell
 peer chaincode query -C mychannel -n basic -c '{"Args":["ReadAsset","asset6"]}'
+```
+OR
+```shell
+bc-3-readData.sh 6
 ```
 
