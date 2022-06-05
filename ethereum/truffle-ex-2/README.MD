@@ -8,17 +8,17 @@ Install the NPM and Visual Studio Code
 
 ### 1.1 Setup the Project (Create Directory and Initialize it)
 
-```
-$ mkdir ethereum-ex-1
-$ cd ethereum-ex-1
-$ npm init -y
+```shell
+mkdir ethereum-ex-1
+cd ethereum-ex-1
+npm init -y
 ```
 
 ### 1.2 Install Truffle and initialize the project with Truffle (Sets the Solidity Config)
 
-```
-$ npm install --save-dev truffle
-$ npx truffle init
+```shell
+npm install --save-dev truffle
+npx truffle init
 ```
 
 ## 2. Code / Compile / Execute
@@ -29,21 +29,21 @@ Code Example
 <img>
 
 ### 2.2 Compile the Contract
-```
-$ npx truffle compile
+```shell
+npx truffle compile
 ```
 
 ### 2.3 Install Open Zeppelin Smart Contracts Framework
 
-```
-$ npm install --save-dev @openzeppelin/contracts
+```shell
+npm install --save-dev @openzeppelin/contracts
 ```
 
 ### 2.4 Install Ganache Test Network
 
-```
-$ npm install --save-dev ganache-cli
-$ npx ganache-cli --deterministic
+```shell
+npm install --save-dev ganache-cli
+npx ganache-cli --deterministic
 ```
 
 ### 2.5 Write the Deployment Script for the Smart Contract
@@ -52,9 +52,16 @@ $ npx ganache-cli --deterministic
 
 ### 2.6 Deploy the Smart Contract
 
+```shell
+npx truffle migrate --network development
 ```
-$ npx truffle migrate --network development
+
+OR
+
+```shell
+npx truffle deploy
 ```
+
 
 ## 3. Client Side Coding
 
@@ -65,22 +72,21 @@ $ npx truffle migrate --network development
 
 ### 3.2 Execute the Client Side Code (Web3 using API)
 
-```
-$ npx truffle exec --network development ./scripts/storage-client-1.js
-$ npx truffle exec --network development ./scripts/storage-client-2.js
-
+```shell
+npx truffle exec --network development ./scripts/storage-client-1.js
+npx truffle exec --network development ./scripts/storage-client-2.js
 ```
 
 ## 4. Automated Test Cases
 
 ### 4.1 Setup the Testing Framework
 
-```
-$ npm install --save-dev chai
+```shell
+npm install --save-dev chai
 ```
 
 ### 4.2 Run the Automated Test Cases
 
-```
-$ npx truffle test
+```shell
+npx truffle test
 ```
