@@ -33,13 +33,16 @@ npx truffle init
 
 ### 2.1 Write the Solidity (0.8.x) Contract 
 
-Code Example 
-<img>
+Smart Code Example 
+
+![Smart Contract](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/SM-Solidity-Ex-1.jpg)
 
 ### 2.2 Compile the Contract
 ```shell
 npx truffle compile
 ```
+![Compile](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/Truffle-Compile-Ex-1.jpg)
+
 
 ### 2.3 Install Open Zeppelin Smart Contracts Framework
 
@@ -53,10 +56,12 @@ npm install --save-dev @openzeppelin/contracts
 npm install --save-dev ganache-cli
 npx ganache-cli --deterministic
 ```
+![Ganache Network](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/Ganache-Cli.jpg)
+
 
 ### 2.5 Write the Deployment Script for the Smart Contract
 
-<img>
+![Deploy](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/SM-Deploy-Ex-1.jpg)
 
 ### 2.6 Deploy the Smart Contract
 
