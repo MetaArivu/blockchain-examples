@@ -10,6 +10,10 @@ Ethereum Examples are done using the following frameworks
 ## 1. Remix IDE Examples
 
 Checkout the instructions in the remix-ide folder.
+1. Go to Remix IDE (web)
+2. Download and Install Ganache Desktop App
+3. Write Smart Contract
+4. Deploy Smart Contract
 
 ## 2. Truffle Examples
 
