@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 // Solidity Smart Contract
 contract Box {
     uint256 private value;
-    string private hello = "Hello World";
+    string private hello = "Hello World - Truffle";
 
     // Emitted when the stored value changes
     event ValueChanged(uint256 value);

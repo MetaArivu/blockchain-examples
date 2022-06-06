@@ -1,5 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
-// Added Separtely
+// Added For Deployment Script
 require('@nomiclabs/hardhat-ethers');
 
 // This is a sample Hardhat task. To learn how to create your own go to
