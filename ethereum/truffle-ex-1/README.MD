@@ -4,6 +4,14 @@
 
 Install the NPM and Visual Studio Code
 
+```shell
+node --version
+```
+Node Version: v16.15.1
+Visual Studio Code: 1.67.2
+
+![VS](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/diagrams/VS-Version.jpg)
+
 ## 1. Setup
 
 ### 1.1 Setup the Project (Create Directory and Initialize it)
