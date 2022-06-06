@@ -110,3 +110,5 @@ npm install --save-dev chai
 ```shell
 npx truffle test
 ```
+
+![Client Code Result](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/SM-Test-Ex-1.jpg)
