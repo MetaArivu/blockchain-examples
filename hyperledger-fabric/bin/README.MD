@@ -1,10 +1,26 @@
+# Hyperledger Fabric Binaries
+
+
+## For Mac OS (Current Version) 
+
 These are Mac OS 64 Bit Executable Binaries
 
 HyperLedger Fabric v2.2
 
 https://hyperledger-fabric.readthedocs.io/en/release-2.2/
 
-To Download the OS Specific Versions of these binaries 
+## For Linux (Ubuntu and other flavors)
+
+Move the Current binaries to macos folder (inside the bin folder)
+```shell
+mv * macos
+cd linux
+cp * ../
+```
+
+## To Download the Latest Version
+
+To Download the OS Specific Latest Versions of these binaries 
 
 ```shell
 curl -sSL https://bit.ly/2ysbOFE | bash -s
