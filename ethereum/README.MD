@@ -42,6 +42,8 @@ Start with hardhat-ex-1 to understand the following
 9. Write Test Cases
 10. Run Automated Test Cases using HardHat
 
+--WIP--
+
 ## 4. Java Client using Web3 API
 
-<WIP>
+--WIP--
