@@ -34,15 +34,14 @@ Start with hardhat-ex-1 to understand the following
 1. Install HardHat
 2. Write Smart Contract using Solidity
 3. Use HardHat to compile the Smart Contract
-4. Install Ganache Cli for the Blockchain Network
-5. Start the Ganache Network (with 10 accounts)
+4. Install Hardhat Node or the Blockchain Network
+5. Start the Hardhat Node Network (with 10 accounts)
 6. Write Deployment Code (JavaScript)
 7. Use HardHat to Deploy the Smart Contract
 8. Use HardHat to run the client side code to execute the contract
 9. Write Test Cases
 10. Run Automated Test Cases using HardHat
 
---WIP--
 
 ## 4. Java Client using Web3 API
 
