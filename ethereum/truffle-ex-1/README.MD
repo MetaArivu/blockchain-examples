@@ -75,6 +75,8 @@ OR
 npx truffle deploy
 ```
 
+![Deploy Result](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/SM-Deploy-Ex-1-Result.jpg)
+
 
 ## 3. Client Side Coding
 
@@ -93,6 +95,7 @@ npx truffle exec --network development ./scripts/Box-client-1.js
 npx truffle exec --network development ./scripts/Box-client-2.js
 ```
 
+![Client Code Result](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/SM-Client-Exec-Ex-1.jpg)
 
 ## 4. Automated Test Cases
 

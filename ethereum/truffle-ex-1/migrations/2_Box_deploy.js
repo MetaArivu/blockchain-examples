@@ -1,4 +1,4 @@
-// migrations/Box_deploy.js
+// migrations/2_Box_deploy.js
 const Box = artifacts.require('Box');
 
 module.exports = async function (deployer) {
