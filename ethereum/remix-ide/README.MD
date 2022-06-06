@@ -16,6 +16,8 @@ https://trufflesuite.com/ganache/
 
 ![Remix IDE](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/Ganache-App-1.jpg)
 
+Check the RPC Server IP and Port Number. You need to give this in REMIX IDE for Web3 Provider Integration.
+
 ![Remix IDE](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/Ganache-App-2.jpg)
 
 ## 2. Using Remix IDE for Smart Contracts
@@ -37,6 +39,8 @@ https://trufflesuite.com/ganache/
 ![Remix IDE](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/Remix-IDE-5-Deploy-Options.jpg)
 
 ### 2.5 Select Web3 Provider to connect to the Local Ganache Network
+
+Give the Ganache Desktop App RPC Server Port Number
 
 ![Remix IDE](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/Remix-IDE-6-Web3-Provider.jpg)
 
