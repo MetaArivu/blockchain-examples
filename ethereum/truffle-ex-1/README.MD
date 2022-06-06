@@ -80,17 +80,17 @@ npx truffle deploy
 
 ### 3.1 Write the Client Side Code to execute the Smart Contract
 
-<img>
+![Client Code](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/SM-Client-Ex-1-A.jpg)
 
 
 ### 3.2 Execute the Client Side Code (Web3 using API)
 
 ```shell
-npx truffle exec --network development ./scripts/index.js
+npx truffle exec --network development ./scripts/Box-client-1.js
 ```
 
 ```shell
-npx truffle exec --network development ./scripts/index-2.js
+npx truffle exec --network development ./scripts/Box-client-2.js
 ```
 
 
