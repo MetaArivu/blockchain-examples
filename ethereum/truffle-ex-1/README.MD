@@ -10,7 +10,7 @@ node --version
 Node Version: v16.15.1
 Visual Studio Code: 1.67.2
 
-![VS](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/diagrams/VS-Version.jpg)
+![VS](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/VS-Version.jpg)
 
 ## 1. Setup
 
