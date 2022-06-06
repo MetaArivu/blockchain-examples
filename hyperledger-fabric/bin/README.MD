@@ -12,14 +12,14 @@ curl -sSL https://bit.ly/2ysbOFE | bash -s
 
 The command above downloads and executes a bash script that will download and extract all of the platform-specific binaries you will need to set up your network. It retrieves the following platform-specific binaries:
 
-- configtxgen,
-- configtxlator,
-- cryptogen,
-- discover,
+- configtxgen
+- configtxlator
+- cryptogen
+- discover
 - idemixgen
-- orderer,
-- peer,
-- fabric-ca-client,
+- orderer
+- peer
+- fabric-ca-client
 - fabric-ca-server
 
 and places them in the bin sub-directory of the current working directory.
