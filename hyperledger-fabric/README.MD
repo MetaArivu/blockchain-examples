@@ -3,20 +3,30 @@
 
 ## 1. Setup Fabric Docker containers
 
-### 1.1 Make the binaries executable
+### 1.1 Download the Platform specific binaries
+
+Go the bin directory and read the instructions to download the platform specific binaries and place them in the bin folder.
+
+Current binaries are for Mac OS
+
+```shell
+cd bin
+```
+
+### 1.2 Make the binaries executable
 ```shell
 cd bin
 chmod +x *
 cd ../
 ```
 
-### 1.2 Download the Containers
+### 1.3 Download the Containers
 
 ```shell
 install-fabric.sh docker sample
 ```
 
-### 1.3 Setup blockchain Network 
+### 1.4 Setup blockchain Network 
 
 Hyperledger Fabric Network with 2 Orgs (1 Peer each) 1 Orderer and 3 CA's and default channels
 
