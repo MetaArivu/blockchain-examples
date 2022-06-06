@@ -58,12 +58,15 @@ npx ganache-cli --deterministic
 ```
 ![Ganache Network](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/Ganache-Cli.jpg)
 
+### 2.5 Configure Truffle with Ganache Network
 
-### 2.5 Write the Deployment Script for the Smart Contract
+![Ganache Network](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/Truffle-Config.jpg)
+
+### 2.6 Write the Deployment Script for the Smart Contract
 
 ![Deploy](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/SM-Deploy-Ex-1.jpg)
 
-### 2.6 Deploy the Smart Contract
+### 2.7 Deploy the Smart Contract
 
 ```shell
 npx truffle migrate --network development
