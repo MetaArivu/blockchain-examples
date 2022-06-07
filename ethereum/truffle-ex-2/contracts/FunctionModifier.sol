@@ -38,5 +38,4 @@ contract FunctionModifier {
     function getCounter() external view returns (uint) {
         return counter;
     }
-
 }

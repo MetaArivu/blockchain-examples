@@ -3,6 +3,7 @@
 This section is focused on Solidity Language Features
 
 1. Local / State / Global Variables, Functions View and Pure
+2. Function Modifiers
 2. Default Values / Constants
 3. Events / Loops / Conditions
 4. Storage / Memory / CallData
@@ -38,7 +39,6 @@ npx truffle deploy
 
 ![Client Code](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-vf-client.jpg)
 
-
 ### 1.4 Execute the Client Side Code (Web3 using API)
 
 ```shell
@@ -47,23 +47,51 @@ npx truffle exec --network development ./scripts/VariablesFunctions-client.js
 
 ![Deploy Result](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-vf-client-result.jpg)
 
-## 2. Default Values and Constants
+## 2. Function Modifiers
 
 ### 2.1 Write the Smart Contract
+
+![Compile](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-fm-contract.jpg)
+
 ### 2.2 Compile & Deploy the Smart Contract
+
+![Compile](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-fm-deploy.jpg)
+
+```shell
+npx truffle migrate --network development
+```
+OR
+```shell
+npx truffle deploy
+```
+![Deploy Result](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-vf-deploy-result.jpg)
+
 ### 2.3 Write the Client Side Code to execute the Smart Contract
+
+![Client Code](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-vf-client.jpg)
+
 ### 2.4 Execute the Client Side Code (Web3 using API)
 
-## 3. Events / Loops / Conditions
+![Compile](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-fm-client-result.jpg)
+
+
+## 3. Default Values and Constants
 
 ### 3.1 Write the Smart Contract
 ### 3.2 Compile & Deploy the Smart Contract
 ### 3.3 Write the Client Side Code to execute the Smart Contract
 ### 3.4 Execute the Client Side Code (Web3 using API)
 
-## 4. Storage / Memory / CallData
+## 4. Events / Loops / Conditions
 
 ### 4.1 Write the Smart Contract
 ### 4.2 Compile & Deploy the Smart Contract
 ### 4.3 Write the Client Side Code to execute the Smart Contract
 ### 4.4 Execute the Client Side Code (Web3 using API)
+
+## 5. Storage / Memory / CallData
+
+### 5.1 Write the Smart Contract
+### 5.2 Compile & Deploy the Smart Contract
+### 5.3 Write the Client Side Code to execute the Smart Contract
+### 5.4 Execute the Client Side Code (Web3 using API)
