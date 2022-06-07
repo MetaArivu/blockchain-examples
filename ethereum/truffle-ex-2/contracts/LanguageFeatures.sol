@@ -2,21 +2,12 @@
 pragma solidity >=0.4.22 <0.9.0;
 
 contract LanguageFeatures {
-  uint256 private value;
-  string private hello = "Hello World - Truffle";
 
-  // Emitted when the stored value changes
-  event ValueChanged(uint256 value);
+  string private hello = "Hello World - Truffle - Ex-2";
 
-  // Stores a new value in the contract
-  function store(uint256 _value) public {
-      value = _value;
-      emit ValueChanged(value);
-  }
-
-  // Reads the last stored value
-  function retrieve() public view returns (uint256) {
-      return value;
+  // Returns the Greetings - Hello World
+  function greeting() public view returns (string memory) {
+      return hello;
   }
 
   // External and Pure (Read only) Calls
@@ -24,6 +15,7 @@ contract LanguageFeatures {
     return x+y;
   }
 
+  // External and Pure (Read only) Calls
   function sub(uint x, uint y) external pure returns(uint) {
     return x-y;
   }

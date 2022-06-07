@@ -17,9 +17,8 @@ module.exports = async function main (callback) {
     console.log('Add(3,5) value is', val1.toString());
     console.log('Sub(5,3) value is', val2.toString());
 
-    await languageFeatures.store(21);
-    const value = await languageFeatures.retrieve();
-    console.log('LangFeature value is', value.toString());
+    const value = await languageFeatures.greeting();
+    console.log('LangFeature Greet is', value.toString());
 
     callback(0);
   } catch (error) {
