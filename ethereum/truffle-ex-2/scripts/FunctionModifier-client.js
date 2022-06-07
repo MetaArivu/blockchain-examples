@@ -35,6 +35,10 @@ module.exports = async function main (callback) {
     const value3 = await functionModifier.getCounter();
     console.log('counter.inc() = ', value3.toString());
 
+    await functionModifier.kat();
+    const value4 = await functionModifier.getCounter();
+    console.log('counter.kat() = ', value4.toString());
+
     callback(0);
   } catch (error) {
     console.error(error);

@@ -27,6 +27,15 @@ contract FunctionModifier {
     function incrementBy(uint _value) external whenRunning min(_value) {
         counter += _value;
     }
+    // Sandwich Modifier
+    modifier sandwich() {
+        counter = 21; // Execute Modifier Code
+        _; // Execute Target Function Code
+        counter += 3; // Execute Modifier Code again
+    }
+    function kat() external sandwich {
+        counter -= 16;
+    }
     // Stop the Contract
     function stop() external {
         running = false;
