@@ -3,10 +3,12 @@ pragma solidity >=0.4.22 <0.9.0;
 
 contract LanguageFeatures {
 
+  // State variable
   string private hello = "Hello World - Truffle - Ex-2";
 
   // Returns the Greetings - Hello World
   function greeting() public view returns (string memory) {
+      string memory hello2 = "Local Hello";
       return hello;
   }
 
