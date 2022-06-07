@@ -64,11 +64,11 @@ OR
 ```shell
 npx truffle deploy
 ```
-![Deploy Result](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-vf-deploy-result.jpg)
+![Deploy Result](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-fm-deploy-result.jpg)
 
 ### 2.3 Write the Client Side Code to execute the Smart Contract
 
-![Client Code](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-vf-client.jpg)
+![Client Code](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-fm-client.jpg)
 
 ### 2.4 Execute the Client Side Code (Web3 using API)
 
