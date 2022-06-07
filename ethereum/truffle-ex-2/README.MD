@@ -1,115 +1,69 @@
 # Ethereum Solidity Smart Contract Examples
 
-## Pre-Reuisites
+This section is focused on Solidity Language Features
 
-Install the NPM and Visual Studio Code
+1. Local / State / Global Variables, Functions View and Pure
+2. Default Values / Constants
+3. Events / Loops / Conditions
+4. Storage / Memory / CallData
+5. Inheritance / Multiple Inheritance
 
-```shell
-node --version
-```
-Node Version: v16.15.1
-Visual Studio Code: 1.67.2
+## Setup
 
-![VS](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/VS-Version.jpg)
+Check truffle-ex-1 to Create the first Solidity Smart Contract and deploy in the Ethereum network.
 
-## 1. Setup
+## 1. Local / State / Global Variables, Functions View and Pure
 
-### 1.1 Setup the Project (Create Directory and Initialize it)
+This sections the concept of Local, State and Global Varibales in Solidity. It also shows the difference between using view and pure in the functions.
 
-```shell
-mkdir ethereum-ex-1
-cd ethereum-ex-1
-npm init -y
-```
+### 1.1 Write the Smart Contract
 
-### 1.2 Install Truffle and initialize the project with Truffle (Sets the Solidity Config)
+![Compile](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-vf-contract.jpg)
 
-```shell
-npm install --save-dev truffle
-npx truffle init
-```
+### 1.2 Compile & Deploy the Smart Contract
 
-## 2. Code / Compile / Execute
-
-### 2.1 Write the Solidity (0.8.x) Contract 
-
-Smart Code Example 
-
-![Smart Contract](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/SM-Solidity-Ex-1.jpg)
-
-### 2.2 Compile the Contract
-```shell
-npx truffle compile
-```
-![Compile](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/Truffle-Compile-Ex-1.jpg)
-
-
-### 2.3 Install Open Zeppelin Smart Contracts Framework
-
-```shell
-npm install --save-dev @openzeppelin/contracts
-```
-
-### 2.4 Install Ganache Test Network
-
-```shell
-npm install --save-dev ganache-cli
-npx ganache-cli --deterministic
-```
-![Ganache Network](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/Ganache-Cli.jpg)
-
-### 2.5 Configure Truffle with Ganache Network
-
-![Ganache Network](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/Truffle-Config.jpg)
-
-### 2.6 Write the Deployment Script for the Smart Contract
-
-![Deploy](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/SM-Deploy-Ex-1.jpg)
-
-### 2.7 Deploy the Smart Contract
+![Compile](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-vf-deploy.jpg)
 
 ```shell
 npx truffle migrate --network development
 ```
-
 OR
-
 ```shell
 npx truffle deploy
 ```
 
-![Deploy Result](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/SM-Deploy-Ex-1-Result.jpg)
+![Deploy Result](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-vf-deploy-result.jpg)
+
+### 1.3 Write the Client Side Code to execute the Smart Contract
+
+![Client Code](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-vf-client.jpg)
 
 
-## 3. Client Side Coding
-
-### 3.1 Write the Client Side Code to execute the Smart Contract
-
-![Client Code](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/SM-Client-Ex-1-A.jpg)
-
-
-### 3.2 Execute the Client Side Code (Web3 using API)
+### 1.4 Execute the Client Side Code (Web3 using API)
 
 ```shell
-npx truffle exec --network development ./scripts/Language-Features-client-1.js
+npx truffle exec --network development ./scripts/VariablesFunctions-client.js
 ```
 
+![Deploy Result](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/tr-ex2-vf-client-result.jpg)
 
+## 2. Default Values and Constants
 
-![Client Code Result](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/SM-Client-Exec-Ex-1.jpg)
+### 2.1 Write the Smart Contract
+### 2.2 Compile & Deploy the Smart Contract
+### 2.3 Write the Client Side Code to execute the Smart Contract
+### 2.4 Execute the Client Side Code (Web3 using API)
 
-## 4. Automated Test Cases
+## 3. Events / Loops / Conditions
 
-### 4.1 Setup the Testing Framework
+### 3.1 Write the Smart Contract
+### 3.2 Compile & Deploy the Smart Contract
+### 3.3 Write the Client Side Code to execute the Smart Contract
+### 3.4 Execute the Client Side Code (Web3 using API)
 
-```shell
-npm install --save-dev chai
-```
+## 4. Storage / Memory / CallData
 
-### 4.2 Run the Automated Test Cases
-
-```shell
-npx truffle test
-```
-
-![Client Code Result](https://raw.githubusercontent.com/MetaArivu/blockchain-examples/master/images/SM-Test-Ex-1.jpg)
+### 4.1 Write the Smart Contract
+### 4.2 Compile & Deploy the Smart Contract
+### 4.3 Write the Client Side Code to execute the Smart Contract
+### 4.4 Execute the Client Side Code (Web3 using API)

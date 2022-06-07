@@ -4,10 +4,10 @@ pragma solidity >=0.4.22 <0.9.0;
  * State / Local / Global Variables
  * Functions View and Pure
  */
-contract LanguageFeatures {
+contract VariablesFunctions {
   // State variable are stored in the Blockchain
   string private hello = "Hello World - Truffle - Ex-2";
-
+  uint public specialNumber = 21;
   // Returns the Greetings - Hello (A State Variable)
   // View is used to do read-only view of the blockchain data
   function greeting() public view returns (string memory, string memory) {
@@ -29,9 +29,8 @@ contract LanguageFeatures {
     return x+y;
   }
 
-  // External and Pure (Read only) Calls
-  function sub(uint x, uint y) external pure returns(uint) {
-    return x-y;
+  // External and View as it reads data from state variable
+  function sub(uint y) external view returns(uint) {
+    return specialNumber-y;
   }
-
  }

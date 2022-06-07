@@ -1,0 +1,85 @@
+{
+  "contractName": "EventsLoopsConditions",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.14+commit.80d49f37\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"State / Local / Global Variables Functions View and Pure\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/EventsLoopsConditions.sol\":\"EventsLoopsConditions\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/EventsLoopsConditions.sol\":{\"keccak256\":\"0x131a713fc726998a2e402d099f8673bbde39cf5d8fa0031d0b709224f4ec9779\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://486b5dcb2127bf1478b9079ad455bc8bb483f5011c2175733ed55f502752441e\",\"dweb:/ipfs/QmfBYX5xxLDXHYcxwFrej3FqkcEJy54xDxUUEza61gSeCj\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212203b2d89e79360e53a180460865d26bcc038620da448c211a83ee15ba87db396b164736f6c634300080e0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212203b2d89e79360e53a180460865d26bcc038620da448c211a83ee15ba87db396b164736f6c634300080e0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "136:34:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "136:34:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n/**\n * State / Local / Global Variables\n * Functions View and Pure\n */\ncontract EventsLoopsConditions {\n}",
+  "sourcePath": "/Users/arafkarsh/workspace/blockchain/blockchain-qs/ethereum/truffle-ex-2/contracts/EventsLoopsConditions.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/EventsLoopsConditions.sol",
+    "exportedSymbols": {
+      "EventsLoopsConditions": [
+        3
+      ]
+    },
+    "id": 4,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "EventsLoopsConditions",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": {
+          "id": 2,
+          "nodeType": "StructuredDocumentation",
+          "src": "65:70:0",
+          "text": " State / Local / Global Variables\n Functions View and Pure"
+        },
+        "fullyImplemented": true,
+        "id": 3,
+        "linearizedBaseContracts": [
+          3
+        ],
+        "name": "EventsLoopsConditions",
+        "nameLocation": "145:21:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 4,
+        "src": "136:34:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:138:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.14+commit.80d49f37.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-06-07T13:02:11.757Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "notice": "State / Local / Global Variables Functions View and Pure",
+    "version": 1
+  }
+}
