@@ -3,7 +3,7 @@ pragma solidity >=0.4.22 <0.9.0;
  // State / Local / Global Variables
  // Functions View and Pure, Fallback and receive functions
 contract VariablesFunctions {
-  // visibility
+  // Function Visibility
   // ----------------------------------------------------------------------
   // private  - ONLY INSIDE the Contract
   // internal - ONLY INSIDE the Contract and CHILD Contracts

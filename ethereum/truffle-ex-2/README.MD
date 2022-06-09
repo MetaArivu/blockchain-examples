@@ -4,10 +4,10 @@ This section is focused on Solidity Language Features
 
 1. Local / State / Global Variables, Functions View and Pure
 2. Function Modifiers
-2. Default Values / Constants
-3. Events / Loops / Conditions
-4. Storage / Memory / CallData
-5. Inheritance / Multiple Inheritance
+3. Default Values / Constants / Immutable
+4. Events / Loops / Conditions
+5. Storage / Memory / CallData
+6. Inheritance / Multiple Inheritance
 
 ## Setup
 
