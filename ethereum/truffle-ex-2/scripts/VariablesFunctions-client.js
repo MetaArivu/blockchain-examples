@@ -11,9 +11,7 @@ module.exports = async function main (callback) {
 
     // Call the Smart Contract for Language Feature
     const val1 = await variablesFunctions.add(3,5);
-    const val2 = await variablesFunctions.sub(13);
     console.log('Add(3,5) value is ', val1.toString());
-    console.log('Sub(13)  value is ', val2.toString());
 
     const obj1 = await variablesFunctions.greeting();
     console.log('Greet Global  is  ', obj1[0]);
