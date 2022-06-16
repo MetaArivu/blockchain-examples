@@ -6,8 +6,8 @@ This section is focused on Solidity Language Features
 2. Function Modifiers
 3. Default Values / Constants / Immutable
 4. Events / Loops / Conditions
-5. Structure / Maps / Arrays
-6. Storage / Memory / CallData
+5. Storage / Memory / CallData
+6. Arrays / Structure / Maps
 7. Inheritance / Multiple Inheritance
 
 ## Setup
@@ -90,14 +90,14 @@ npx truffle deploy
 ### 4.3 Write the Client Side Code to execute the Smart Contract
 ### 4.4 Execute the Client Side Code (Web3 using API)
 
-## 5. Structure / Maps / Arrays
+## 5. Storage / Memory / CallData
 
 ### 5.1 Write the Smart Contract
 ### 5.2 Compile & Deploy the Smart Contract
 ### 5.3 Write the Client Side Code to execute the Smart Contract
 ### 5.4 Execute the Client Side Code (Web3 using API)
 
-## 6. Storage / Memory / CallData
+## 6. Arrays / Structure / Maps
 
 ### 6.1 Write the Smart Contract
 ### 6.2 Compile & Deploy the Smart Contract
